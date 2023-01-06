@@ -7,6 +7,14 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
+import "./styles/side-effect.css";
+import { cssBundleHref } from "@remix-run/css-bundle";
+
+export const links = () => {
+  return [
+    ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : []),
+  ];
+};
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
