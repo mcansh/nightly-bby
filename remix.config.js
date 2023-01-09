@@ -8,5 +8,7 @@ module.exports = {
   future: {
     unstable_cssSideEffectImports: true,
     unstable_cssModules: true,
+    v2_meta: true,
+    v2_routeConvention: true,
   },
 };
