@@ -8,20 +8,22 @@
     "typecheck": "tsc -b"
   },
   "dependencies": {
-    "@remix-run/css-bundle": "0.0.0-nightly-512d655-20230108",
-    "@remix-run/node": "0.0.0-nightly-512d655-20230108",
-    "@remix-run/react": "0.0.0-nightly-512d655-20230108",
-    "@remix-run/serve": "0.0.0-nightly-512d655-20230108",
+    "@remix-run/css-bundle": "0.0.0-nightly-45ba8d6-20230119",
+    "@remix-run/node": "0.0.0-nightly-45ba8d6-20230119",
+    "@remix-run/react": "0.0.0-nightly-45ba8d6-20230119",
+    "@remix-run/serve": "0.0.0-nightly-45ba8d6-20230119",
+    "@vanilla-extract/css": "^1.9.2",
     "isbot": "^3.6.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@remix-run/dev": "0.0.0-nightly-512d655-20230108",
-    "@remix-run/eslint-config": "0.0.0-nightly-512d655-20230108",
+    "@remix-run/dev": "0.0.0-nightly-45ba8d6-20230119",
+    "@remix-run/eslint-config": "0.0.0-nightly-45ba8d6-20230119",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.8",
     "eslint": "^8.27.0",
+    "nodemon": "^2.0.20",
     "typescript": "^4.8.4"
   },
   "engines": {

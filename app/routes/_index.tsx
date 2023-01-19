@@ -1,10 +1,12 @@
-import { Test } from "~/test";
+import { Container } from "~/container";
+import { CssModuleTest } from "~/css-module-test";
+import { gradientText } from "~/heading.css";
 
 export default function Index() {
   return (
-    <div>
-      <h1>Welcome to Remix</h1>
-      <Test />
+    <Container>
+      <h1 className={gradientText}>Welcome to Remix</h1>
+      <CssModuleTest />
       <ul>
         <li>
           <a
@@ -30,6 +32,6 @@ export default function Index() {
           </a>
         </li>
       </ul>
-    </div>
+    </Container>
   );
 }
